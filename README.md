@@ -16,3 +16,5 @@ go run main.go
 ```
 
 Le serveur sera accessible sur http://localhost:8080
+
+Commit louche qui ne respecte aucune règle et qui devra être revert
