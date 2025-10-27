@@ -16,3 +16,25 @@ go run main.go
 ```
 
 Le serveur sera accessible sur http://localhost:8080
+
+## Exercice 6
+
+### Question 2
+
+Pour effacer le changement (deux nouvelles lignes au README.md) j'ai utilisé :
+
+```git
+git revert -m 1 HEAD
+git push
+```
+
+on aurait aussi pu faire
+
+```git
+git reset --hard HEAD^
+git push
+```
+
+git reset : supprime les changements effectués en supprimant aussi l'historique. Donc très propre visuellement.
+
+git revert : supprime les changements effectués en créant un commit par-dessus. Permet de garder un historique cohérent des changements
