@@ -17,6 +17,12 @@ go run main.go
 
 Le serveur sera accessible sur http://localhost:8080
 
+## Exercice 4
+
+### Etape 2
+
+Je n'avais pas vu le script en bas de page alors j'ai fait un commit "Simulation de commit imprévu" qui correspond aux modifications effectuées par un collègues
+
 ## Exercice 6
 
 ### Question 2
